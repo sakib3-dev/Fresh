@@ -1,0 +1,327 @@
+/* all common css start here  */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+.mr{
+    margin-right: 0 !important;
+}
+/* all common css end here  */
+
+
+/* header start here  */
+
+.navbar {
+    background: #FAE3B6;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+.auth_btn button {
+    background: #FFD687;
+}
+
+/* header end here  */
+
+
+
+
+/* banner paart 1 start here  */
+
+#banner_part_1 {
+    background: #FAE3B6;
+    position: relative;
+}
+
+.banner_1_content h1 {
+    font-size: 64px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    line-height: 80px;
+    padding: 0 28px;
+}
+
+.banner_1_content p {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    line-height: 40px;
+    padding: 0 28px;
+}
+
+.banner_1_content button {
+    width: 319px;
+    height: 86px;
+    border-radius: 20px;
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+/* banner part 1 end here  */
+
+
+
+/* new collection start here  */
+
+#new_collection {
+    padding-top: 13.5rem;
+}
+
+.nc_title {
+    display: inline-block;
+}
+
+.nc_title h3 {
+    padding-left: 440px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: #000000;
+}
+
+
+
+
+
+.nc_images_1 {
+    margin-top: 130px;
+    margin-bottom: 180px;
+}
+
+.nc_img_1 {
+    position: relative;
+}
+
+.nc_img_title {
+    left: 5px;
+    bottom: 44px;
+    position: absolute;
+}
+
+.nc_img_title h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    height: 50px;
+    width: 310px;
+    padding-top: 18px;
+    margin-left: 16px;
+    text-align: center;
+    background: #B7ACAC;
+}
+
+.nc_img_title span h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    height: 50px;
+    width: 355px;
+    padding-top: 18px;
+    margin-left: 16px;
+    text-align: center;
+    background: #B7ACAC;
+}
+
+
+.nc_images_2 {
+    position: relative;
+}
+
+.g_point_2 {
+    top: -106px;
+    left: 573px;
+    position: absolute;
+    z-index: -1;
+}
+
+.g_point_3 {
+    top: 866px;
+    left: 50px;
+    position: absolute;
+}
+
+.product_data {
+    position: absolute;
+    width: 793px;
+    height: 280px;
+    border-radius: 20px;
+    top: 630px;
+    right: 0px;
+    background: #FEECC8;
+    z-index: -2;
+}
+
+.pd_1 {
+    margin: auto;
+}
+
+.pd_1 h3 {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Podkova', serif;
+    color: #000000;
+}
+
+.pd_1 p {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    padding-top: 45px;
+}
+
+.pd_1_line {
+    margin: auto;
+    height: 143px;
+    border: 1px solid #000000;
+}
+
+.best_f_img {
+    margin-right: 112px;
+    margin-bottom: 353px;
+}
+
+.best_f_text {
+    margin-top: 76px;
+}
+
+.best_f_text h3 {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: #000000;
+    line-height: 80px;
+    padding-bottom: 77px;
+}
+
+.best_f_text p {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+/* new collection end here  */
+
+
+
+
+
+/* best seller product start here  */
+
+#best_seller_product {
+    background: #CFA485;
+}
+
+.bsp_item_1{
+    width: 457px;
+    height: 601px;
+    margin-top: 36px;
+    margin-left: 35px;
+}
+.bsp_item_1 h3{
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Frank Ruhl Libre', serif;
+    line-height: 80px;
+    padding-bottom: 25px;
+}
+.bsp_item_1 p{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Frank Ruhl Libre', serif;
+    line-height: 40px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+.bsp_item_1 button{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    background: #000000;
+    width: 319px;
+    height: 86px;
+    border-radius: 10px;
+}
+.bsp_item_2{
+    width: 762px;
+    height: 551px;
+    margin-top: 36px;
+}
+
+.bsp_item_2_card{
+    width: 366px;
+    height: 424px;
+}
+.card_body{
+    width: 366px;
+    height: 127px;
+    background: #ffffff;
+}
+.card_body img{
+    padding-left: 20px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+.card_body h3{
+    padding-left: 20px;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.card_body p{
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* best seller product end here  */
